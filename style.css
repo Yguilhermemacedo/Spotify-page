@@ -47,3 +47,39 @@ h1{
     padding: 16px 0 0 16px;
 }
 
+/* Library */
+.library{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library__content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.library__button{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans",sans-serif;
+    text-align: center;
+    text-transform: none;
+    padding: 20px 10px;
+    
+    
+}
